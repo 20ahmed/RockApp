@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock game</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+
+  <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+  <section>
+    <div class="player-com-container">
+      <div class="player  col-2 p-2 text-center mt-3">player</div>
+      <div class="com  col-2 col-sm-2 p-2 text-center mt-3">computer</div>
+    </div>
+    <div class="score py-5">
+      <div class="score-player col-2  text-center " id="player_counter">0</div>
+      <div class="score-com col-2  text-center  " id="com_counter">0</div>
+    </div>
+  </section>
+  <h1 id="the_winner">the winner</h1>
+  <div class="img-container">
+
+    <img class="rock-img col-2 mt-4" src="/image/0.png" id="imgPlayer" alt="" width="200px">
+    <img class="papper-img col-2 mt-4" src="/image/0.png" id="imgCom" alt="" width="200px">
+  </div>
+  <div class="btn-container mt-5 selections">
+    <button class="selection btn-game btn-primary" value="0" id="rock_btn" data-selection="rock">rock</button>
+    <button class=" selection btn-game btn-primary" value="1" id="papper_btn" data-selection="papper">papper</button>
+    <button class=" selection btn-game btn-primary" value="2" id="scissors_btn"
+      data-selection="scissors">scissors</button>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+<script src="js/popper.min.js"></script>
+<script src="js/jquery.nicescroll.min.js"></script>
+
+<script src="/js/main.js"></script>
+
+</html>

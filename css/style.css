@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(39, 41, 68);
+}
+
+.player-com-container,
+.score {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.score {
+  color: white;
+  font-size: 20px;
+  padding-top: 1rem !important;
+}
+
+.game-title-cont {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  height: 50vh;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.btn {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#the_winner {
+  color: white;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  justify-items: flex-start;
+}
+
+.rock-img {
+  transform: rotate(200deg);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.btn-game {
+  width: 10%;
+  height: 50px;
+}
